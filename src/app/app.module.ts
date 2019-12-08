@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { WarningAlertComponent } from './warningalert/warningalert.component.ts'
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    WarningAlertComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
